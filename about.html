@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What are jack o'lanterns</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/685/685844.png">
+    <style>
+        body {
+            background-color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        a {
+            color: red;
+        }
+        a:visited {
+            color:orange;
+        }
+        a:hover {
+            color:yellow;
+        }
+        .navigation-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navigation-blocks{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr auto 1fr auto 1fr;
+            text-align: center;
+        }
+        img {
+            margin: auto;
+        }
+        .wide{
+            display: none;
+        }
+        .mediumwide{
+            display: none;
+        }
+        @media (min-width:1100px){
+            .smallwide {
+                display: none;
+            }
+            .mediumwide {
+                display: block;
+            }
+        }
+        @media (min-width:1300px){
+            .wide{
+                display: block;
+            }
+            .mediumwide{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation-bar">
+        <div class="navigation-blocks">
+            <div></div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+    </nav>
+    <br>
+    <h1 style="color:orangered">About</h1>
+    <br>
+    <h3 style="color:orangered">What Are jack o'lanterns?</h3>
+    <ul style="color:orangered">
+    <li>Hollowed out pumpkin</li>
+    <li>Face carved into the front</li>
+    <li>Candle or light placed inside</li>
+    <li><a href="https://www.amazon.com/Jack-Lantern-Arch-Halloween-Decor/dp/B0F9ZT67MV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MrS1OlCI6eHknuqleh7YMU1T1mw7kXcJVtBYBNwXtQNE8BxIMU1pjdrNxqXLJrZax639OXaCxB63V_7mbLXJtQUWy-YaVWnSk52EToa0nxVZuaNZy9KTmRn2j_6q_dJMFr4DEP5jM829kkO_PVoEg7V6TvaE5f9w6SY0fgo01eN-sJUcUUWc2odLbMPdOCfw1e3Ud8Ec0CLmB5cMQ3Qnflpk-D9G3G_EJ8QQqxh7Rd08OWCff7W5PRESAOphC2OWW0sOjE55DvOJhocUXxdks-WRDZs76G1EyboNsEq6f7g.rsTNUAgQ9ndkHwxNDJG65_TUVEb4fJi99P1qhLWgM6c&dib_tag=se&keywords=Jack+O+Lanterns&qid=1792473293&sr=8-1">Click me for good starting point for jack o' lanterns</a></li>
+    <li>The way jack o' lanterns attracts potential mates is through a dance</li>
+    </ul>
+        <h1 style="color: orangered;">Jack o'lantern mating dance</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuaBrVU1rxEtvcjleNFiKHPaFVVZnqxKEKJMpWEbMSUHueflK65sG2_8J&s=10" class="wide" title="mating dance 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzJ1DWhwF1nPIWnHOkm518mMK6QYy3XGD7UBVeUD1U-7SbxW97Eqs34Me&s=10" class="mediumwide" style="size: 250%;" title="mating dance 2">
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-10/29/16/enhanced/webdr08/original-24944-1446150026-6.png?fill=625:625" class="smallwide" style="size: 200%;" title="mating dance 3">
+</body>
+</html>
